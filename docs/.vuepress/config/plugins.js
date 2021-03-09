@@ -108,4 +108,25 @@ module.exports = [
     },
   ],
   [ 'tabs' ],
+  
+  
+  [
+    "music-bar",
+    {
+        //手动添加歌曲,支持 URLs 或 base64 data URIs ,默认为空
+        //Add songs manually, support URLs or base64 data URIs, empty by default
+        playList: [], // ["example.mp3"]
+
+        platform: [
+          //目前仅支持网易云 TODO:多平台支持,默认为空数组
+          //Currently only supports Netease Cloud Music,
+          //the default is an empty array TODO: Multi-platform support,
+          {
+            name: "music.163.com",
+            songIDs:["5059535"], //歌曲为Bee Gees 比吉斯的stayin' alive, 适合心肺复苏培训//支持多个歌曲 ID  //Support multiple song IDs
+            playListIDs: [] //支持多个歌单 ID  //Support multiple playlist IDs
+        }
+      ]
+    }
+  ]
 ]
