@@ -16,6 +16,17 @@ module.exports = [
 
   },  
   
+  {
+    text: '指南',
+    link: '/guideline/',   
+
+  },  
+    
+  {
+    text: '文献',
+    link: '/paper/',   
+
+  },  
   
    
   { 

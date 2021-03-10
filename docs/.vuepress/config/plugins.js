@@ -1,6 +1,6 @@
-// 插件配置
+// 插件引用和参数配置
 module.exports = [
-  // 本地插件
+  // 本地插件（不在node_modules文件夹内，需要用require指定好引用路径）。
   // [require('./plugins/love-me'), { // 鼠标点击爱心特效
   //   color: '#11a8cd', // 爱心颜色，默认随机色
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
@@ -10,7 +10,9 @@ module.exports = [
 
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   [
-    'thirdparty-search',
+    'thirdparty-search', // 基于官方搜索框插件 @vuepress/plugin-search (内置搜索只会为页面的标题、h2 、 h3 以及 tags 构建搜索索引。 如果你需要全文搜索，你可以使用 Algolia 搜索。) 添加第三方搜索链接。
+
+
     {
       thirdparty: [
         // 可选，默认 []
@@ -19,14 +21,14 @@ module.exports = [
           frontUrl: 'https://pubmed.ncbi.nlm.nih.gov/?term=', // 搜索链接的前面部分
           behindUrl: '%5BTitle%5D&ac=no&sort=pubdate&size=20', // 搜索链接的后面部分，可选，默认 ''
         },
-        {
-          title: '在Runoob中搜索',
-          frontUrl: 'https://www.runoob.com/?s=',
-        },
-        {
-          title: '在Vue API中搜索',
-          frontUrl: 'https://cn.vuejs.org/v2/api/#',
-        },
+        // {
+        //   title: '在Runoob中搜索',
+        //   frontUrl: 'https://www.runoob.com/?s=',
+        // },
+        // {
+        //   title: '在Vue API中搜索',
+        //   frontUrl: 'https://cn.vuejs.org/v2/api/#',
+        // },
         {
           title: '在Bing中搜索',
           frontUrl: 'https://cn.bing.com/search?q=',
@@ -75,7 +77,7 @@ module.exports = [
   [
     'vuepress-plugin-baidu-tongji', // 百度统计
     {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
+      hm: '74fabdf03bf360b01f9693bcf58ad802',
     },
   ],
   [
@@ -124,7 +126,7 @@ module.exports = [
           {
             name: "music.163.com",
             songIDs:["5059535"], //歌曲为Bee Gees 比吉斯的stayin' alive, 适合心肺复苏培训//支持多个歌曲 ID  //Support multiple song IDs
-            playListIDs: [] //支持多个歌单 ID  //Support multiple playlist IDs
+            playListIDs: ["2829816518", "2829883282"] //支持多个歌单 ID  //Support multiple playlist IDs
         }
       ]
     }
