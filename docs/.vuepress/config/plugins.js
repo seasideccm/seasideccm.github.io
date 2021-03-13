@@ -9,37 +9,37 @@ module.exports = [
   'vuepress-plugin-baidu-autopush', // 百度自动推送
 
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-  [
-    'thirdparty-search', // 基于官方搜索框插件 @vuepress/plugin-search (内置搜索只会为页面的标题、h2 、 h3 以及 tags 构建搜索索引。 如果你需要全文搜索，你可以使用 Algolia 搜索。) 添加第三方搜索链接。
+  // [
+  //  'thirdparty-search', // 基于官方搜索框插件 @vuepress/plugin-search (内置搜索只会为页面的标题、h2 、 h3 以及 tags 构建搜索索引。 如果你需要全文搜索，你可以使用 Algolia 搜索。) 添加第三方搜索链接。
 
 
-    {
-      thirdparty: [
-        // 可选，默认 []
-        {
-          title: '在PubMed中搜索',
-          frontUrl: 'https://pubmed.ncbi.nlm.nih.gov/?term=', // 搜索链接的前面部分
-          behindUrl: '%5BTitle%5D&ac=no&sort=pubdate&size=20', // 搜索链接的后面部分，可选，默认 ''
-        },
-        // {
-        //   title: '在Runoob中搜索',
-        //   frontUrl: 'https://www.runoob.com/?s=',
-        // },
-        // {
-        //   title: '在Vue API中搜索',
-        //   frontUrl: 'https://cn.vuejs.org/v2/api/#',
-        // },
-        {
-          title: '在Bing中搜索',
-          frontUrl: 'https://cn.bing.com/search?q=',
-        },
-        {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
-        },
-      ],
-    },
-  ],
+  //   {
+  //    thirdparty: [
+  //      // 可选，默认 []
+  //      {
+  //        title: '在PubMed中搜索',
+  //        frontUrl: 'https://pubmed.ncbi.nlm.nih.gov/?term=', // 搜索链接的前面部分
+  //        behindUrl: '%5BTitle%5D&ac=no&sort=pubdate&size=20', // 搜索链接的后面部分，可选，默认 ''
+  //      },
+  //      // {
+  //      //   title: '在Runoob中搜索',
+  //      //   frontUrl: 'https://www.runoob.com/?s=',
+  //      // },
+  //      // {
+  //      //   title: '在Vue API中搜索',
+  //      //   frontUrl: 'https://cn.vuejs.org/v2/api/#',
+  //      // },
+  //      {
+  //        title: '在Bing中搜索',
+  //        frontUrl: 'https://cn.bing.com/search?q=',
+  //      },
+  //      {
+  //        title: '通过百度搜索本站的',
+  //        frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+  //      },
+  //    ],
+  //  },
+  //],
 
   [
     'one-click-copy',
@@ -110,6 +110,7 @@ module.exports = [
     },
   ],
   [ 'tabs' ],
+  ['algolia'],
   
   ['sitemap', {
       hostname: "https://seasideccm.github.io/"
