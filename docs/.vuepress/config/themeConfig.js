@@ -15,7 +15,7 @@ module.exports = {
   searchMaxSuggestions: 50, // 搜索结果显示最大数
   
   algolia: {
-  apiKey: '38e4dd8c5751cb13ac1436edc215b0e6',
+  apiKey: '011783057bdad632c9e33ad70d1abb6f',
   indexName: 'sscc',
   appId: '7H9N1GQIPC'
   },
