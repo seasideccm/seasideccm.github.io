@@ -12,10 +12,10 @@ module.exports = {
   //  导航栏右侧生成项目/代码仓库链接所需要的代码托管网站的项目名称，
   // repo的参数就是把项目网址前面的内容去掉而已。
   
-  searchMaxSuggestions: 20, // 搜索结果显示最大数
+  searchMaxSuggestions: 50, // 搜索结果显示最大数
   
   algolia: {
-  apiKey: '2f3af95b8c13e7152991fe02ae7c7dfb',
+  apiKey: '38e4dd8c5751cb13ac1436edc215b0e6',
   indexName: 'sscc',
   appId: '7H9N1GQIPC'
   },
