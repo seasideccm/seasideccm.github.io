@@ -111,11 +111,11 @@ module.exports = [
   ],
   [ 'tabs' ],
   
-  'sitemap', {
-      hostname: 'https://seasideccm.github.io/'
+  ['sitemap', {
+      hostname: "https://seasideccm.github.io/"
     },
     
-  
+  ],
   [
     "music-bar",
     {
