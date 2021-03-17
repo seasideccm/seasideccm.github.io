@@ -12,13 +12,13 @@ module.exports = {
   //  导航栏右侧生成项目/代码仓库链接所需要的代码托管网站的项目名称，
   // repo的参数就是把项目网址前面的内容去掉而已。
   
-  searchMaxSuggestions: 50, // 搜索结果显示最大数
+  // searchMaxSuggestions: 50, // 搜索结果显示最大数
   
-  algolia: {
-  apiKey: '011783057bdad632c9e33ad70d1abb6f',
-  indexName: 'sscc',
-  appId: '7H9N1GQIPC'
-  },
+  // algolia: {
+  // apiKey: '011783057bdad632c9e33ad70d1abb6f',
+  // indexName: 'sscc',
+  // appId: '7H9N1GQIPC'
+  // },
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsBranch: 'docs',  // 默认master分支，在github是main（这还要看看程序会用什么） //部署在主分支不需要设置。目录docs存放的是项目源码，也就是我们写的文章以及配置文件等。
   // 若非部署在项目/代码仓库的主分支上，就需要指定源码docs文件夹在哪个分支上。

@@ -27,7 +27,14 @@ module.exports = [
     link: '/paper/',   
 
   },  
+
   
+  {
+    text: '影音',
+    link: '/multimedia/',   
+
+  },  
+    
    
   { 
     text: '关于', link: '/pages/ad735e/' 

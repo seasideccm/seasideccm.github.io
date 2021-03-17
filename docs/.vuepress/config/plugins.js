@@ -1,4 +1,6 @@
 // 插件引用和参数配置
+const fs = require('fs')
+const { path } = require('@vuepress/shared-utils')
 module.exports = [
   // 本地插件（不在node_modules文件夹内，需要用require指定好引用路径）。
   // [require('./plugins/love-me'), { // 鼠标点击爱心特效
@@ -90,7 +92,7 @@ module.exports = [
         repo: 'blog-gitalk-comment', // GitHub 仓库
         owner: 'seasideccm', // GitHub仓库所有者
         admin: ['seasideccm'], // 对仓库有写权限的人
-        // distractionFreeMode: true,
+        distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
         title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
@@ -110,7 +112,16 @@ module.exports = [
     },
   ],
   [ 'tabs' ],
-  ['algolia'],
+  
+  // ['algolia'],
+  
+  [
+    'fulltext-search',
+    {
+      // provide the contents of a JavaScript file
+      hooks: fs.readFileSync(path.resolve(__dirname, './searchHooks.js')),
+    },
+  ],
   
   ['sitemap', {
       hostname: "https://seasideccm.github.io/"
