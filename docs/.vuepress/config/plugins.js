@@ -112,6 +112,7 @@ module.exports = [
     },
   ],
   [ 'tabs' ],
+  [ 'vuepress-plugin-mathjax'],
   
   // ['algolia'],
   

@@ -1680,7 +1680,7 @@ array-flatten@1.1.1:
   resolved "https://registry.npm.taobao.org/array-flatten/download/array-flatten-1.1.1.tgz?cache=0&sync_timestamp=1574313293899&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Farray-flatten%2Fdownload%2Farray-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
-array-flatten@^2.1.0:
+array-flatten@^2.1.0, array-flatten@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npm.taobao.org/array-flatten/download/array-flatten-2.1.2.tgz?cache=0&sync_timestamp=1574313293899&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Farray-flatten%2Fdownload%2Farray-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
   integrity sha1-JO+AoowaiTYX4hSbDG0NeIKTsJk=
@@ -3241,6 +3241,13 @@ decompress-response@^3.3.0:
   dependencies:
     mimic-response "^1.0.0"
 
+deconstruct-merge@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/deconstruct-merge/download/deconstruct-merge-1.1.0.tgz#ed9986ce729d9e67bdbc5780a771a021947ab3d3"
+  integrity sha1-7ZmGznKdnme9vFeAp3GgIZR6s9M=
+  dependencies:
+    array-flatten "^2.1.2"
+
 deep-equal@^1.0.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/deep-equal/download/deep-equal-1.1.1.tgz#b5c98c942ceffaf7cb051e24e1434a25a2e6076a"
@@ -3741,6 +3748,11 @@ eslint-scope@^4.0.3:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
+esm@^3.0.34:
+  version "3.2.25"
+  resolved "https://registry.npm.taobao.org/esm/download/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
+  integrity sha1-NCwYwp1WFXaIulzjH4Qx+7eVzBA=
+
 esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.npm.taobao.org/esprima/download/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
@@ -4084,6 +4096,11 @@ find-up@^4.0.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+flexsearch@^0.6.32:
+  version "0.6.32"
+  resolved "https://registry.npm.taobao.org/flexsearch/download/flexsearch-0.6.32.tgz#1e20684d317af65baa445cdd9864a5f5b320f510"
+  integrity sha1-HiBoTTF69luqRFzdmGSl9bMg9RA=
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
@@ -4648,7 +4665,7 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-he@1.2.x, he@^1.1.0:
+he@1.2.x, he@^1.1.0, he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/he/download/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
@@ -4737,6 +4754,16 @@ html-tags@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/html-tags/download/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
   integrity sha1-e15vfmZen7QfMAB+2eDUHpf7IUA=
+
+html-to-text@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npm.taobao.org/html-to-text/download/html-to-text-5.1.1.tgz#2d89db7bf34bc7bcb7d546b1b228991a16926e87"
+  integrity sha1-LYnbe/NLx7y31UaxsiiZGhaSboc=
+  dependencies:
+    he "^1.2.0"
+    htmlparser2 "^3.10.1"
+    lodash "^4.17.11"
+    minimist "^1.2.0"
 
 htmlparser2@^3.10.1:
   version "3.10.1"
@@ -6191,6 +6218,13 @@ markdown-it@^8.4.1:
     linkify-it "^2.0.0"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
+
+mathjax3@3.0.0-beta.3:
+  version "3.0.0-beta.3"
+  resolved "https://registry.npm.taobao.org/mathjax3/download/mathjax3-3.0.0-beta.3.tgz#c3072a59304b4b612aa9516eb672b07000c9a3d5"
+  integrity sha1-wwcqWTBLS2EqqVFutnKwcADJo9U=
+  dependencies:
+    esm "^3.0.34"
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -10033,6 +10067,13 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-mergeable@^1.0.2:
+  version "1.1.4"
+  resolved "https://registry.npm.taobao.org/vuepress-mergeable/download/vuepress-mergeable-1.1.4.tgz#738bbe46101a07e256b83dbf82140d17be020c05"
+  integrity sha1-c4u+RhAaB+JWuD2/ghQNF74CDAU=
+  dependencies:
+    deconstruct-merge "^1.1.0"
+
 vuepress-plugin-baidu-autopush@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-baidu-autopush/download/vuepress-plugin-baidu-autopush-1.0.1.tgz#e5042170f05a585c4a38f876e01ff4706cd82fbe"
@@ -10067,6 +10108,25 @@ vuepress-plugin-demo-block@^0.7.2:
   version "0.7.2"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-demo-block/download/vuepress-plugin-demo-block-0.7.2.tgz#02fc4f0ef764052981accf41f1403fdb9f794c0d"
   integrity sha1-AvxPDvdkBSmBrM9B8UA/2595TA0=
+
+vuepress-plugin-fulltext-search@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-fulltext-search/download/vuepress-plugin-fulltext-search-2.1.0.tgz#492533caedb84b753d284f6e7425c25c78d2e029"
+  integrity sha1-SSUzyu24S3U9KE9udCXCXHjS4Ck=
+  dependencies:
+    flexsearch "^0.6.32"
+    html-to-text "^5.1.1"
+    lodash "^4.17.19"
+    vuepress "^1.4.0"
+
+vuepress-plugin-mathjax@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-mathjax/download/vuepress-plugin-mathjax-1.2.8.tgz#decec38e9dbb82de9cf79f042463fa4a56e25340"
+  integrity sha1-3s7Djp27gt6c958EJGP6SlbiU0A=
+  dependencies:
+    lru-cache "^5.1.1"
+    mathjax3 "3.0.0-beta.3"
+    vuepress-mergeable "^1.0.2"
 
 vuepress-plugin-music-bar@^3.7.6:
   version "3.7.6"
@@ -10133,7 +10193,7 @@ vuepress-theme-vdoing@^1.8.1:
     vuepress-plugin-container "^2.0.2"
     vuepress-plugin-smooth-scroll "^0.0.3"
 
-vuepress@1.8.2:
+vuepress@1.8.2, vuepress@^1.4.0:
   version "1.8.2"
   resolved "https://registry.npm.taobao.org/vuepress/download/vuepress-1.8.2.tgz?cache=0&sync_timestamp=1614169239924&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvuepress%2Fdownload%2Fvuepress-1.8.2.tgz#97e8bf979630611fc7b621fc4cc35b798ee5e847"
   integrity sha1-l+i/l5YwYR/HtiH8TMNbeY7l6Ec=
