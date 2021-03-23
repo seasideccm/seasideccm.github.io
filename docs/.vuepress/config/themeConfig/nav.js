@@ -34,6 +34,12 @@ module.exports = [
     link: '/multimedia/',   
 
   },  
+  
+    {
+    text: '故事',
+    link: '/story/',   
+
+  },
     
    
   { 
