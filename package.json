@@ -20,6 +20,7 @@
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-fulltext-search": "^2.1.0",
+    "vuepress-plugin-meting": "^0.2.3",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
@@ -27,10 +28,11 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "async-validator": "1.11.5",
+    "element-ui": "^2.15.1",
     "vue-tabs-component": "^1.5.0",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-mathjax": "^1.2.8",
-    "vuepress-plugin-music-bar": "^3.7.6",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-tabs": "^0.3.0"
   }

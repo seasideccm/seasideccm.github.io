@@ -1,3 +1,13 @@
+---
+title: AI在医学影像应用的5个原则
+date: 2021-03-28 06:07:25
+permalink: /pages/ca5e31/
+sidebar: auto
+categories:
+  - 随笔
+tags:
+  - 
+---
 
 
 # Five principles for the intelligent use of AI in medical imaging

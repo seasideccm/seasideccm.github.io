@@ -1,6 +1,7 @@
 /node_modules/
 /theme-voding/
 /utils/
+测试/*
 # Logs
 logs
 *.log

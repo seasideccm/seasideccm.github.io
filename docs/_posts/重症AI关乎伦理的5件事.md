@@ -1,3 +1,13 @@
+---
+title: 重症AI关乎伦理的5件事
+date: 2021-03-28 06:07:25
+permalink: /pages/34bf7a/
+sidebar: auto
+categories:
+  - 随笔
+tags:
+  - 
+---
 
 
 # Five things every clinician should know about AI ethics in intensive care

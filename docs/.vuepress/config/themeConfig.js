@@ -1,6 +1,6 @@
 const nav = require('./themeConfig/nav.js');
 const sidebar = require('./themeConfig/sidebar.js');
-const htmlModules = require('./themeConfig/htmlModules.js');
+// const htmlModules = require('./themeConfig/htmlModules.js');
 // 以上是模块化定义，指定要引入的js文件及其路径。
 //（即所在目录，./ 的意思是当前目录，../是上级目录，../../ 是往上两级目录）。
 // 主题配置
@@ -62,8 +62,7 @@ module.exports = {
   // pageButton: false, // 是否显示快捷翻页按钮，默认true
 
   sidebar: 'structuring', // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
-  // sidebar: { mode: 'structuring', collapsable: Boolean},
- // 控制侧边栏是否可收缩，（没测试出效果来）。
+  
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'SSCC', // 必需
@@ -92,7 +91,7 @@ module.exports = {
       {
         iconClass: 'icon-erji',
         title: '听音乐',
-        link: 'https://music.163.com/#/playlist?id=1324720213',
+        link: 'https://music.163.com/#/song?id=1324720213',
       },
     ],
   },
@@ -102,5 +101,5 @@ module.exports = {
     copyrightInfo:
       'SSCC | <a href="https://github.com/seasideccm/seasideccm.github.io/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
-  htmlModules // 插入hmtl(广告)模块
+  // htmlModules // 插入hmtl(广告)模块
 }
