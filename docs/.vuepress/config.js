@@ -2,6 +2,7 @@ const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
 
+
 module.exports = {
   theme: 'vdoing', // 使用依赖包主题,
   //可以通过“ npm update vuepress-theme-vdoing  ”在线升级，
@@ -27,4 +28,29 @@ module.exports = {
   plugins,
   themeConfig,
   // 以上指的是调用三个模块，在本文最开头做了定义
+
+/*   chainWebpack: (config, isServer) => {
+    config.module
+      .rule('pdfs')
+      .test(/\.pdf$/)
+      .use('file-loader')
+        .loader('file-loader')
+      .options({
+        name: `[path][name].[ext]`
+      });
+    
+    config.module.rule('vue')
+      .uses.store
+      .get('vue-loader').store
+      .get('options').transformAssetUrls = {
+        video: ['src', 'poster'],
+        source: 'src',
+        img: 'src',
+        image: ['xlink:href', 'href'],
+        a: 'href'
+      };
+  },
+ */
+
+
 }
