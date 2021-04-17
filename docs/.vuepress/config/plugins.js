@@ -158,7 +158,8 @@ module.exports = [
          meting: {
 			auto: 
 			// 'https://music.163.com/#/album?id=74364367'
-			'https://music.163.com/#/playlist?id=6988583'
+			// 'https://music.163.com/#/playlist?id=6988583'
+			'https://music.163.com/playlist?id=6717117896'
 		 },
          aplayer: {
 			lrcType: 3,
