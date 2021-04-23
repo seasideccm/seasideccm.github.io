@@ -1,6 +1,7 @@
 /node_modules/
 /theme-voding/
 /utils/
+/.vuepress/dist/
 测试/*
 # Logs
 logs
