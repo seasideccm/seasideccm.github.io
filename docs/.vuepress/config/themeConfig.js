@@ -11,8 +11,8 @@ module.exports = {
   repo: 'seasideccm/seasideccm.github.io', 
   //  导航栏右侧生成项目/代码仓库链接所需要的代码托管网站的项目名称，
   // repo的参数就是把项目网址前面的内容去掉而已。
-  
-  // searchMaxSuggestions: 50, // 搜索结果显示最大数
+  // search: false, //禁用内置搜索框，禁用后 fulltext search 也不能用了。
+  searchMaxSuggestions: 20, // 搜索结果显示最大数
   
   // algolia: {
   // apiKey: '011783057bdad632c9e33ad70d1abb6f',
