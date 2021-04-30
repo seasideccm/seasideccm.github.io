@@ -112,6 +112,7 @@ module.exports = [
     },
   ],
   [ 'tabs' ],
+  [ 'pangu' ],
   [ 'vuepress-plugin-mathjax'],
   
   // ['algolia'],
@@ -131,6 +132,7 @@ module.exports = [
     },
     
   ],
+  
   // [
   //   "music-bar",
   //   {
