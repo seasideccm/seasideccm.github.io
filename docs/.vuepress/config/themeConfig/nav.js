@@ -1,21 +1,29 @@
 // nav
 module.exports = [
   { text: '首页', link: '/' },
-  {
-    text: '血流理论',
-    link: '/bloodflow/theory/', 
-  },
-  {
-    text: '血流技术',
-    link: '/bloodflow/technology/',
-  },
-  
-  {
-    text: '临床血流',
-    link: '/bloodflow/clinic/',   
 
-  },  
-  
+  {
+    text: '血流',
+	link: '/bloodflow/',
+    items: [
+      {
+        text: '血流理论',
+        link: '/bloodflow/theory/', 
+      },
+      {
+        text: '血流技术',
+        link: '/bloodflow/technology/',
+      },
+      
+      {
+        text: '临床血流',
+        link: '/bloodflow/clinic/',   
+    
+      },  	
+	]
+  },
+
+
   {
     text: '指南',
     link: '/guideline/',   
@@ -28,9 +36,15 @@ module.exports = [
 
   },  
 
+  {
+    text: '重症知识',
+    link: '/theory/',   
+
+  },  
+  
   
   {
-    text: '影音',
+    text: '重症技术',
     link: '/multimedia/',   
 
   },  
