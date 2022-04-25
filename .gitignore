@@ -1,7 +1,10 @@
 /node_modules/
 /theme-voding/
+/vdoing/
 /utils/
 /.vuepress/dist/
+.env
+deploy.sh
 测试/*
 # Logs
 logs

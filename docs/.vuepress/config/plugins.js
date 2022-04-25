@@ -95,13 +95,15 @@ module.exports = [
  
   // [ 'element-ui' ],
   
-    [
-      'fulltext-search', // 全文搜索，自己修改样式实现关键词高亮。
-      {
-        // provide the contents of a JavaScript file
-        hooks: fs.readFileSync(path.resolve(__dirname, './searchHooks.js')),
-      },
-    ],
+    //[
+    //  'fulltext-search', // 全文搜索，自己修改样式实现关键词高亮。
+    //  {
+    //    // provide the contents of a JavaScript file
+    //    hooks: fs.readFileSync(path.resolve(__dirname, './searchHooks.js')),
+    //  },
+    //],
+
+    ['flexsearch-td'],
   
     //['flexsearch-pro'],
 	
@@ -131,11 +133,11 @@ module.exports = [
    //  },
    //],
   
-  ['sitemap', {
-      hostname: "https://seasideccm.github.io/"
-    },
-    
-  ],
+    ['sitemap', {
+        hostname: "https://seasideccm.github.io/"
+      },
+      
+    ],
   
 //  [
 //      'meting',
