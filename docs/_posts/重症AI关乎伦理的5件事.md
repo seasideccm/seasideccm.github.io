@@ -1,0 +1,48 @@
+---
+title: 重症AI关乎伦理的5件事
+date: 2021-03-28 06:07:25
+permalink: /pages/34bf7a/
+sidebar: auto
+categories:
+  - 随笔
+tags:
+  - 
+---
+
+
+# Five things every clinician should know about AI ethics in intensive care
+
+- [James A. Shaw](javascript:;)             [ORCID: orcid.org/0000-0002-9522-0756](http://61.175.198.136:8083/rwt/150/http/N73GG4LEF3YYE3D/0000-0002-9522-0756)[1](http://61.175.198.136:8083/rwt/150/https/NSVX643PPNZHE4LPM7TYELUDN7XB/article/10.1007/s00134-020-06277-y#Aff1),[2](http://61.175.198.136:8083/rwt/150/https/NSVX643PPNZHE4LPM7TYELUDN7XB/article/10.1007/s00134-020-06277-y#Aff2), 
+- [Nayha Sethi](javascript:;)[3](http://61.175.198.136:8083/rwt/150/https/NSVX643PPNZHE4LPM7TYELUDN7XB/article/10.1007/s00134-020-06277-y#Aff3) & 
+- [Brian L. Block](javascript:;)[4](http://61.175.198.136:8083/rwt/150/https/NSVX643PPNZHE4LPM7TYELUDN7XB/article/10.1007/s00134-020-06277-y#Aff4) 
+
+[*Intensive Care Medicine*](http://61.175.198.136:8083/journal/134)                             **volume 47**, pages157–159(2021)[Cite this article](http://61.175.198.136:8083/rwt/150/https/NSVX643PPNZHE4LPM7TYELUDN7XB/article/10.1007/s00134-020-06277-y#citeas)                         
+
+- 3397 Accesses
+- 1 Citations
+- 39 Altmetric
+- [Metrics details](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y/metrics)
+
+You have just admitted two patients to your intensive care unit (ICU) with coronavirus disease 2019 (COVID-19), both needing intubation. You only have the resources to offer mechanical ventilation to one of them. In your view, both are equally ill and warrant a trial of mechanical ventilation. Your hospital uses artificial intelligence (AI) to make recommendations for the allocation of scarce resources, to reduce subjectivity and remove treating clinicians from triage decisions. Without showing the data or reason behind its decision, the algorithm recommends offering mechanical ventilation to one of the patients, who is White, rather than the other, who is Black. You wonder why the algorithm made this recommendation and whether it is morally “right”.
+
+As applications of AI become a routine part of clinical practice, intensive care clinicians will need to develop an understanding of the ethics and responsibilities that come with healthcare AI. In this brief paper, we outline five things every clinician should know to inform the ethical use of AI technologies in intensive care (see Fig. [1](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#Fig1) for a summary). We highlight issues that clinicians must understand to engage in ethical deliberation about the uses of AI more generally. Readers seeking additional information and a principlist approach to issues of AI in healthcare would do well to read other articles in this special series on AI, or consult other authoritative publications [[1](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR1), [2](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR2)].
+
+First, clinicians should have a basic fluency with the technology underlying AI because they will ultimately remain ethically and legally responsible for treatment decisions. As a general-purpose technology, AI refers to computer algorithms that run complex computations on data using advanced statistical analyses [[3](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR3)]. These algorithms are generally trained on large datasets, which permit more accurate predictions than can be made with other methodologies. Healthcare applications of AI range from clinician-facing tools to predict clinical deterioration in the ICU to patient-facing applications such as automated chat functions (a chatbot) of which families can ask questions [[3](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR3)]. The purpose of becoming familiar with the technology underlying AI is not to become an expert in developing such technologies. Rather, practicing clinicians must understand what algorithms can and cannot do, promote the appropriate use of healthcare AI, and recognize when the technology is not performing as desired or expected. 
+
+**Fig. 1**
+
+![figure1](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00134-020-06277-y/MediaObjects/134_2020_6277_Fig1_HTML.jpg?as=webp)
+
+Five things every clinician should know about AI ethics in intensive care
+
+
+
+Second, clinicians should understand that patients and the public will not necessarily trust or embrace healthcare AI. A 2019 survey of members of the Canadian public found that 58% of respondents believed it was very or somewhat likely that AI technologies would be delivering health services in the next 10 years [[4](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR4)]. Two-thirds of respondents believed that such advances in the role of AI in medicine would have a positive impact on their lives. And yet, experimental evidence in the United States suggests that people are less likely to use medical services when such services are known to use AI [[5](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR5)]. Trust—it turns out—is still dependent on having a clinician remain in charge of decision-making. Thus, clinicians planning to utilize healthcare AI must develop strategies for communicating clearly that the clinician will only employ AI in ways that are safe and effective [[6](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR6)].
+
+Third, clinicians must understand the provenance of training data used in healthcare AI. Algorithms derive their power and accuracy from the data they are trained on. In most cases, training data comes from individual patients. While using patient-level data is not inherently objectionable, the use of such data without consent is morally problematic [[7](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR7)]. In Denmark, for example, health authorities made population-wide health record data available to digital health innovators [[8](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR8)]. When a group of physicians discovered this was taking place, they raised public awareness and advocated for ending such data sharing. Similar events have taken place in the United Kingdom and the United States, where health systems shared large numbers of health records with large technology companies [[7](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR7)]. Although morally problematic, sharing de-identified data to generate AI is legal in most of the world. European countries tend to demand stronger justifications for such initiatives, but even in Europe, patients need not expressly grant permission for their health record to be shared. Just as with other technologies, frameworks to inform ethical data use lag behind the deployment of AI, which is occurring across sectors at a blistering pace [[9](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR9)].
+
+Fourth—in addition to considering whether training data was acquired with patient consent, it is also important to understand that algorithms may perpetuate bias. Suresh and Guttag (2019) outline six ways in which bias can be incorporated into the process of AI development and deployment [[10](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR10)]. Although a detailed exploration of each form of bias is beyond the scope of this paper, we provide one example here. Obermeyer et al. (2019) identified the case where a health system in the United States deployed a model to identify patients with complex needs that was allocating systematically fewer resources to Black patients than White patients based on past expenditures to those patients [[11](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR11)]. The algorithm was perpetuating historical inequities in access by providing less care to Black patients. It was not the case that such patients needed less care.
+
+The fifth and final consideration we emphasize is that clinicians should understand whether algorithms are achieving appropriate and desired results. Just as an evidence base is required before utilizing novel chemotherapy, AI algorithms must also be tested to ensure they are delivering intended results. Healthcare AI is not infallible. Clinicians must have access to information about the impact that AI has on patient outcomes to avoid causing patient harm [[12](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR12)]. Recent work has proposed a multi-phased approach to generating evidence on healthcare AI, and clinicians should become familiar with the interpretation of such evidence for this novel collection of technologies [[13](http://61.175.198.136:8083/article/10.1007/s00134-020-06277-y#ref-CR13)].
+
+Returning to the patients mentioned at the outset, the clinician is apt to question the reasoning behind the algorithm. They must have access to information about how the algorithm was trained, understand how the training data relates to the patients in front of them, and review patient outcomes associated with the algorithm. In this case, there is concern that the algorithm may perpetuate inequities by calculating survival probabilities on the basis of historical data showing that Black patients—who often receive worse medical care and face other social inequities—are less likely to survive.
