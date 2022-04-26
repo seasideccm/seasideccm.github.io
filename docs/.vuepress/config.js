@@ -22,6 +22,7 @@ module.exports = {
       // base 将会作为前缀自动地插入到所有以 / 开始的其他选项的链接中，所以你只需要指定一次。
   markdown: {
     lineNumbers: true, // 代码行号
+	extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ],
   },
 
   head,
