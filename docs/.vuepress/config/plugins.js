@@ -46,7 +46,7 @@ module.exports = [
   [
     'vuepress-plugin-baidu-tongji', // 百度统计
     {
-      hm: '74fabdf03bf360b01f9693bcf58ad802',
+      hm: '5cec6728fbc163ee9fb6aaaf894711e7',
     },
   ],
   [
@@ -103,22 +103,10 @@ module.exports = [
     //  },
     //],
 
-    ['flexsearch-td'],
-  
-    //['flexsearch-pro'],
-	
-	//['flexsearch-pro', {
-    //  /*
-    //    自定义搜索参数
-    //  */
-    //  searchPaths: [],    // ['path1', 'path2']搜索路径数组，为空表示搜索全部路径
-    //  searchHotkeys: ['s'],    // 激活搜索控件的热键, 默认是 "s" ，也可以添加更多热键
-    //  searchResultLength: 120,    // 搜索结果展示的字符长度, 默认是60个字节
-    //  }
-    //],
-  
+//    ['flexsearch-td'],
 
-  
+    ['fulltext-search'],
+ 
    //[
    //  '@vuepress/docsearch',
    //  {
@@ -134,7 +122,7 @@ module.exports = [
    //],
   
     ['sitemap', {
-        hostname: "https://seasideccm.github.io/"
+        hostname: "https://www.sscc.gq/"
       },
       
     ],
