@@ -1,11 +1,11 @@
 name: ssccs-docs
 
 on:
- #push:
- #  branches:
- #    - docs
- #  paths-ignore:
- #    - '**/__tests__/**'
+  push:
+    branches:
+      - docs
+    paths-ignore:
+      - '**/__tests__/**'
   workflow_dispatch:
 
 jobs:
