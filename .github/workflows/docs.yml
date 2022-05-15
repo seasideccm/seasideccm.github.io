@@ -13,27 +13,29 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NODE_VERSION: '14'
+      NODE_VERSION: '16'
 
     steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: true
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: 16
+          cache: pnpm
 
-      - name: install pnpm
-        run: npm install -g pnpm@next-7
-
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Build documentation site
-        run: pnpm build
+      - name: Docs build
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: pnpm run build
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.6.0
