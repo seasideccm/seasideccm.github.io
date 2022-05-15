@@ -28,7 +28,13 @@ module.exports = [
     text: '指南',
     link: '/guideline/',   
 
-  },  
+  }, 
+  
+  {
+    text: '课件',
+    link: '/slide/',   
+
+  },
     
   {
     text: '文献',

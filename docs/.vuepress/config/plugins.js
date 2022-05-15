@@ -126,6 +126,17 @@ module.exports = [
       },
       
     ],
+
+    ['md-enhance', {
+
+      enableAll: true,
+      presentation: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+        revealConfig: {
+          center: true,  
+        },
+    },},],
+
   
 //  [
 //      'meting',
