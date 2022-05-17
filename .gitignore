@@ -1,7 +1,7 @@
 # ! [remote rejected] docs -> docs (refusing to allow an OAuth App to create or update workflow `.github/workflows/docs.yml` without `workflow` scope)
 # error: failed to push some refs to 'https://github.com/seasideccm/seasideccm.github.io.git'
 
-.github/
+# .github/
 /node_modules/
 /theme-voding/
 /vdoing/
