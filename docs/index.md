@@ -11,15 +11,15 @@ features: # 可选的
   - title: 血流理论
     details: 血流的生理、病理及理论
     link: /bloodflow/theory/ # 可选
-    imgUrl: https://gitee.com/humorlife2020/img/raw/main/Blood%20Flows%20Through%20the%20Heart%20and%20Lungs.png # 可选
+    imgUrl: /img/Blood%20Flows%20Through%20the%20Heart%20and%20Lungs.png # 可选
   - title: 血流技术
     details: 监测与调控血流的相关技术
     link: /bloodflow/technology/
-    imgUrl: https://gitee.com/humorlife2020/img/raw/main/blood%20flow%20monitoring%20device.png
+    imgUrl: /img/blood%20flow%20monitoring%20device.png
   - title: 临床血流
     details: 血流在临床救治的应用
     link: /bloodflow/clinic/
-    imgUrl: https://gitee.com/humorlife2020/img/raw/main/Improve%20Your%20Circulation.jpg
+    imgUrl: /img/Improve%20Your%20Circulation.jpg
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
