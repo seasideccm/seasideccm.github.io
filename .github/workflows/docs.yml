@@ -30,7 +30,7 @@ jobs:
         uses: mingjun97/file-regex-replace@v1
         with:
           regex: '"href": tab.hash'
-          replacement: '"href": "javascript:void(0);"'
+          replacement: '"href": "###"'
           flags: "g"                 
           include: '\.js'   
           exclude: '.^'              
