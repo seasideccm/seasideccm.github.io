@@ -2,6 +2,8 @@
 # error: failed to push some refs to 'https://github.com/seasideccm/seasideccm.github.io.git'
 
 # .github/
+!/node_modules/vuepress-plugin-tabs/
+!/node_modules/vue-tabs-component/
 /node_modules/
 /theme-voding/
 /vdoing/
