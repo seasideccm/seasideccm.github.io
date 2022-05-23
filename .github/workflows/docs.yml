@@ -26,6 +26,17 @@ jobs:
           version: 7.1.3
           run_install: true                    
 
+      - name: Modify version number
+        uses: mingjun97/file-regex-replace@v1
+        with:
+          regex: '"href": tab.hash'
+          replacement: '"href": "###"'
+          flags: "g"                 
+          include: '\.js'   
+          exclude: '.^'              
+          encoding: 'utf8'           
+          path: './node_modules/vue-tabs-component/dist' 
+      
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
