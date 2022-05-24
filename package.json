@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
+	"debug": "vuepress dev docs --debug",
     "build": "vuepress build docs --no-cache",
     "deploy": "bash deploy.sh",
     "editFm": "node utils/editFrontmatter.js",
