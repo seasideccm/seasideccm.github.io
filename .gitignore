@@ -8,6 +8,7 @@
 /utils/
 /.vuepress/dist/
 .env
+.pnpm-debug*.log
 deploy.sh
 测试/*
 # Logs
